@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Beautiful Duwa</string>
+    <string-array name="DUA">
+        <item>When In Anger</item>
+        <item>Before And After Meal</item>
+        <item>Entering And Exiting Masjid</item>
+        <item>When Sneezing</item>
+        <item>Entering And Leaving Home</item>
+        <item>When Feeling Stressed</item>
+        <item>While Traveling</item>
+        <item>Dua Before Slepping</item>
+        <item>Dua When Waking From Sleep</item>
+        <item>DUA ON ENTERING THE TOILET</item>
+        <item>DUA TO REMOVE PAIN</item>
+        <item>DUA DURING THUNDER AND LIGHTNING</item>
+        <item>DUA TO READ ON SHAB’BE QADR NIGHT OF POWER IN RAMADAAN</item>
+        <item>BENEFICIAL DUAS FOR MORNING AND EVENING</item>
+        <item>A TREE IN JAN’NAT</item>
+        <item>A BILLION REWARDS</item>
+        <item>DUROOD-E-GHAUSIA</item>
+        <item>DUA AFTER AZAAN</item>
+        <item>At the time of visiting a dangerous place</item>
+        <item>Dua after every prayer</item>
+        <item>For Sawab of whole Night Ibadat</item>
+        <item>For protection from Hell</item>
+        <item>Salatul Janaza</item>
+        <item>Eid ul Fitr</item>
+        <item>Eid ul Adha</item>
+        <item>Lailat ul Barat Prayer</item>
+        <item>Lailat ul Qadr Prayer</item>
+        <item>Lailat ul Miraj Prayer</item>
+        <item>For recovery of misplaced or lost thing</item>
+        <item>Follow the Prophet’s Advice</item>
+        <item>Some Final Tips</item>
+    </string-array>
+</resources>
