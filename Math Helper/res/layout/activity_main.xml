@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context="itorchid.com.a32jakariaassignment3nomenclature.MainActivity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:weightSum="1">
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal"
+      android:layout_marginLeft="30dp"
+      android:layout_marginTop="5dp"
+     >
+      <Button
+          android:id="@+id/bt1"
+          android:layout_width="60dp"
+          android:layout_height="wrap_content"
+          android:text="1"
+          android:background="#DD5549"
+          android:onClick="onClick"
+          />
+      <Button
+          android:id="@+id/bt2"
+          android:layout_width="60dp"
+          android:layout_height="wrap_content"
+          android:text="2"
+          android:background="#DD5549"
+          android:onClick="bt2"
+          android:layout_marginLeft="5dp"
+          />
+      <Button
+          android:id="@+id/bt3"
+          android:layout_width="60dp"
+          android:layout_height="wrap_content"
+          android:text="3"
+          android:background="#DD5549"
+          android:onClick="bt3"
+          android:layout_marginLeft="5dp"
+          />
+      <Button
+          android:id="@+id/bt4"
+          android:layout_width="60dp"
+          android:layout_height="wrap_content"
+          android:text="4"
+          android:background="#DD5549"
+          android:onClick="bt4"
+          android:layout_marginLeft="5dp"
+          />
+      <Button
+          android:id="@+id/bt5"
+          android:layout_width="60dp"
+          android:layout_height="wrap_content"
+          android:text="5"
+          android:background="#DD5549"
+          android:layout_marginLeft="5dp"
+          android:onClick="bt5"
+          />
+  </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="5dp"
+        >
+        <Button
+            android:id="@+id/bt6"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:text="6"
+            android:background="#DD5549"
+            android:onClick="bt6"
+            />
+        <Button
+            android:id="@+id/bt7"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:text="7"
+            android:background="#DD5549"
+            android:onClick="bt7"
+            android:layout_marginLeft="5dp"
+            />
+        <Button
+            android:id="@+id/bt8"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:text="8"
+            android:background="#DD5549"
+            android:onClick="bt8"
+            android:layout_marginLeft="5dp"
+            />
+        <Button
+            android:id="@+id/bt9"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:text="9"
+            android:background="#DD5549"
+            android:onClick="bt9"
+            android:layout_marginLeft="5dp"
+            />
+        <Button
+            android:id="@+id/bt10"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:text="10"
+            android:background="#DD5549"
+            android:layout_marginLeft="5dp"
+            android:onClick="bt10"
+            />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tshow"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:text="Please Select A Number"/>
+    <TextView
+        android:id="@+id/tnamota"
+        android:layout_width="match_parent"
+        android:layout_height="362dp"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:background="#d71d0e"
+        android:text=""
+        android:gravity="center"
+        android:layout_weight="0.95" />
+
+
+</LinearLayout>
+
+
+
+</ScrollView>
