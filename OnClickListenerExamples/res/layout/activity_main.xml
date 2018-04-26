@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="itorchid.com.onclicklistenerexamples.MainActivity">
+
+   <Button
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/bt1"
+       android:text="On Click"
+       android:onClick="onClick"
+       android:background="#ddef180d"
+       android:layout_marginTop="20dp"
+       />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bt2"
+        android:text="Set On Click Listener"
+        android:background="#ddeabb0f"
+        android:layout_below="@+id/bt1"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bt3"
+        android:text="Set On Item Long Click Listener"
+        android:background="#dd08cce2"
+        android:layout_below="@+id/bt2"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bt4"
+        android:text="On Touch Listener"
+        android:background="#dd05e2c9"
+        android:layout_below="@+id/bt3"
+        android:layout_marginTop="20dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bt5"
+        android:text="set focus to a button "
+        android:background="#dd410cd1"
+        android:layout_below="@+id/bt4"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bt6"
+        android:text="Set onKeyDown"
+        android:background="#dd1def0e"
+
+        android:layout_below="@+id/bt5"
+        android:layout_marginTop="20dp"/>
+
+</RelativeLayout>
